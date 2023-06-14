@@ -1,0 +1,155 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Success Consulatncy</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    </head> 
+    <body> 
+        <section class="header">
+         <nav>
+            <a href="index.html"><img src="master.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                 <li><a href="">HOME</a></li>
+                 <li><a href="">DESTINATIONS </a></li>   
+                 <li><a href="">ABOUT </a></li>   
+                 <li><a href="">CONTACT </a></li>   
+                 <li><a href="">BLOG </a></li>                           
+         </ul>
+        </div>
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+
+       </nav>   
+ <div class="text-box">
+            <h1>Your Success, Our Passion!</h1>
+            <p>At Success Consultancy, we are dedicated to guiding you towards achieving your goals and realizing your full potential. <br>With our personalized approach and expert guidance, we empower you to overcome challenges, seize opportunities, and succeed in your endeavors.<br> Let us be your partner on the journey to success.</p>
+     <a href=""class="hero-btn">Visit Us To know More</a>
+            
+            </div>
+        
+            
+            
+        </section>
+        
+        <!---------Destinations---------->
+        
+        <section class="destinations">
+        <h1>Destinations We Offer</h1>
+            <p>Explore exciting destinations for your education and work opportunities. Our consultancy specializes in connecting individuals with top educational institutions and employment opportunities around the world. Whether you are seeking to study abroad, pursue higher education, or find a rewarding job overseas, we provide personalized guidance and support. Discover new horizons, broaden your skills, and unlock your potential with our comprehensive consultancy services.</p>
+
+        <div class="Row">
+            <div class="destinations-col">
+                <img src="romania.jpg">
+            <h3>Romania</h3>
+             <p>Discover exciting work opportunities in Romania, a country with a vibrant economy and a growing job market. Our consultancy specializes in helping individuals explore employment options in various sectors in Romania.we provide personalized support to help you navigate the job market and secure fulfilling work opportunities in Romania.</p>
+                         </div>
+
+                <div class="destinations-col">
+                    <img src="cana.jpg">
+            <h3>Canada</h3>
+             <p>Explore the diverse educational destinations in Canada, a country renowned for its world-class universities, colleges, and educational institutions. As a leading education consultancy, we can help you pursue your academic dreams in cities like Toronto, Vancouver, Montreal, Calgary, and more. </p>
+
+                        </div>
+
+                    
+                    <div class="destinations-col">
+                        <img src="uss.jpg">
+            <h3>U.S</h3>
+             <p>Discover the vast educational opportunities in the United States, a country renowned for its top-tier universities and colleges. As a leading education consultancy, we can assist you in exploring various study destinations across the U.S. Let us guide you on your educational journey to the United States, where you can expand your horizons and unlock your potential.</p>
+
+            </div>
+        
+        
+            </div>
+            
+        </section>
+        
+        
+     <!-- --------------Contact------------>  
+   <section class="about">
+        
+        <h1>Welcome to Success Consultancy, your trusted partner for education and career success.</h1>
+       <p> We specialize in providing expert guidance and support to individuals and organizations, helping them navigate the path to success. Our team of experienced consultants is dedicated to understanding your unique needs and tailoring our services to help you achieve your goals. With our personalized approach and industry expertise, we empower you to overcome challenges, seize opportunities, and unlock your full potential. Trust Success Consultancy to be your partner on the journey to success.</p>
+        
+        <div class="Row">
+       <div class="about-col">
+            <img src="us.jpg">
+            <div class="layer">
+           <h3>UNITED STATES</h3>
+           </div>
+       </div>
+        <div class="about-col">
+            <img src="can.jpg">
+            <div class="layer">
+           <h3>CANADA </h3>
+           </div>
+       </div>
+        <div class="about-col">
+            <img src="rom.jpg">
+            <div class="layer">
+           <h3>ROMANIA</h3>
+           </div>
+       </div>
+        
+        </div>
+        
+        
+        </section>     
+        
+    <!--------------Contact-------------->
+        <section class="contact">
+        <h1>Contact Info</h1>
+        <a href="" class="hero-btn">Contact Us:</a>
+<p>Email: jedidiahtiruneh@gmail.com</p>
+<p>Phone: +251 921-435795   +251 927952947   +251 936840204</p>
+<p>Address: Derartu tulu Building 3rd floor,Addis Ababa</p>
+
+        
+        
+        
+        </section>
+        
+        <!------Footer------->
+        
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Success Education and Work Consultancy is a leading consultancy firm specializing in education and career development. Our mission is to empower individuals to achieve their academic and professional goals, providing them with the necessary guidance, resources, and support along their journey.
+<br>
+At Success Education and Work Consultancy, we understand the importance of education in shaping one's future. We believe that every individual deserves access to quality education that aligns with their interests, strengths, and aspirations. Our team of dedicated education consultants works closely with students, parents, and professionals to understand their unique needs and provide tailored solutions.
+
+<br>
+Success Education and Work Consultancy maintains strong partnerships with reputable educational institutions, industry professionals, and employers. These partnerships allow us to stay updated with the latest trends and developments in the education and job markets. We leverage these connections to provide our clients with access to internships, workshops, networking events, and other valuable resources that enhance their educational and professional journeys.</p>
+  <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-instagram"></i>
+    <p> Made by Yididiya Abreham </p>
+               </div>      
+        
+        </section>
+        
+        
+       <!--- ----------Javascript for Toggle Menu----->
+        <script>
+        var navLinks= document.getElementById("navLinks");
+        
+        
+    function showMenu(){
+        navLinks.style.right="0";
+        }
+    function hideMenu() {
+  navLinks.style.right = "-200px";
+  closeIcon.style.display = "none"; // Hide the close icon
+}
+
+        
+        </script>
+        
+    </body>
+</html>
